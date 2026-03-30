@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "userId": 1,
+    "courseId": 1,
+    "rating": 5,
+    "comment": "Great course"
+  },
+  {
+    "id": 2,
+    "userId": 1,
+    "courseId": 2,
+    "rating": 4,
+    "comment": "Very ffffffffffff"
+  },
+  {
+    "id": 3,
+    "userId": 1,
+    "courseId": 2,
+    "rating": 5,
+    "comment": "test review"
+  },
+  {
+    "id": 4,
+    "userId": 1,
+    "courseId": 2,
+    "rating": 3,
+    "comment": "test 2"
+  },
+  {
+    "id": 5,
+    "userId": 1,
+    "courseId": 2,
+    "rating": 4,
+    "comment": "Very test 2"
+  },
+  {
+    "id": 6,
+    "userId": 1,
+    "courseId": 2,
+    "rating": 4,
+    "comment": "hhh"
+  }
+]
