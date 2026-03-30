@@ -1,0 +1,14 @@
+# Environment files
+.env
+.env.*
+**/.env
+**/.env.*
+.md
+
+# PDF files
+*.pdf
+**/*.pdf
+
+# Dependencies
+node_modules/
+**/node_modules/
