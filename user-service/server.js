@@ -2,7 +2,9 @@ const express = require("express");
 const path = require("path");
 const dns = require("dns");
 const mongoose = require("mongoose");
+const swaggerUi = require("swagger-ui-express");
 const userRoutes = require("./routes/userRoutes");
+const swaggerDocument = require("./swagger");
 
 require("dotenv").config({ path: path.join(__dirname, ".env") });
 
@@ -13,6 +15,7 @@ const PORT = 3001;
 const MONGODB_URI = process.env.MONGODB_URI || "mongodb://127.0.0.1:27017/lms_user_service";
 
 app.use(express.json());
+app.use("/api-docs", swaggerUi.serve, swaggerUi.setup(swaggerDocument));
 app.use("/users", userRoutes);
 
 app.use((req, res) => {
