@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "description": "LMS Microservices with API Gateway",
   "scripts": {
-    "start": "npm run stop-ports && concurrently \"npm start --prefix api-gateway\" \"npm start --prefix review-service\"",
-    "stop-ports": "kill-port 3000 3006",
-    "install-all": "npm install && npm install --prefix api-gateway && npm install --prefix review-service"
+    "start": "npm run stop-ports && concurrently \"npm start --prefix api-gateway\" \"npm start --prefix course-service\" \"npm start --prefix review-service\"",
+    "stop-ports": "kill-port 3000 3002 3006",
+    "install-all": "npm install && npm install --prefix api-gateway && npm install --prefix course-service && npm install --prefix review-service"
   },
   "devDependencies": {
     "concurrently": "^9.1.0",

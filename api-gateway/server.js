@@ -58,6 +58,14 @@ app.use(
 );
 
 app.use(
+  "/api/courses-docs",
+  createProxyMiddleware({
+    target: "http://localhost:3002/api-docs",
+    changeOrigin: true
+  })
+);
+
+app.use(
   "/api/reviews-docs",
   createProxyMiddleware({
     target: "http://localhost:3006/api-docs",
