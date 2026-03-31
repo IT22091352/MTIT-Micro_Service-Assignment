@@ -1,0 +1,14 @@
+[
+  {
+    "id": 1,
+    "courseId": 1,
+    "type": "video",
+    "url": "https://example.com/video1"
+  },
+  {
+    "id": 2,
+    "courseId": 2,
+    "type": "pdf",
+    "url": "https://example.com/doc1.pdf"
+  }
+]
