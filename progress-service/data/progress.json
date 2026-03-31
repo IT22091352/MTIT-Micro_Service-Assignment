@@ -1,0 +1,14 @@
+[
+  {
+    "id": 1,
+    "userId": 1,
+    "courseId": 1,
+    "completionPercentage": 40
+  },
+  {
+    "id": 2,
+    "userId": 2,
+    "courseId": 2,
+    "completionPercentage": 75
+  }
+]
