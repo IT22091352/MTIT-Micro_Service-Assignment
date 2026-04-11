@@ -1,1 +1,17 @@
-[]
+[
+  {
+    "id": 1,
+    "title": "Introduction to Node.js",
+    "description": "Learn the fundamentals of Node.js and build server-side applications"
+  },
+  {
+    "id": 2,
+    "title": "Advanced React Patterns",
+    "description": "Master advanced React concepts including hooks, context, and performance optimization"
+  },
+  {
+    "id": 3,
+    "title": "Microservices Architecture",
+    "description": "Design and implement scalable microservices using Node.js and Express"
+  }
+]
