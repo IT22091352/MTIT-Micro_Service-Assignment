@@ -58,18 +58,20 @@ app.use(
 );
 
 app.use(
-  "/api/courses-docs",
   createProxyMiddleware({
-    target: "http://localhost:3002/api-docs",
-    changeOrigin: true
+    pathFilter: "/api/courses-docs",
+    target: "http://localhost:3002",
+    changeOrigin: true,
+    pathRewrite: { "^/api/courses-docs": "/api-docs" }
   })
 );
 
 app.use(
-  "/api/reviews-docs",
   createProxyMiddleware({
-    target: "http://localhost:3006/api-docs",
-    changeOrigin: true
+    pathFilter: "/api/reviews-docs",
+    target: "http://localhost:3006",
+    changeOrigin: true,
+    pathRewrite: { "^/api/reviews-docs": "/api-docs" }
   })
 );
 
